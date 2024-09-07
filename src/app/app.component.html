@@ -1,9 +1,27 @@
-<nav>
-  <a routerLink="/" routerLinkActive="active"><i class="home-icon"></i> Home</a>
-  <a routerLink="/shop" routerLinkActive="active"><i class="clothes-icon"></i> Clothes</a>
-  <a routerLink="/favorite" routerLinkActive="active"><i class="favorites-icon"></i> Favorites</a>
-  <a routerLink="/cart" routerLinkActive="active"><i class="cart-icon"></i> Cart</a>
-</nav>
+<mat-toolbar color="primary">
+  <span>Cosmic Clothing</span>
+  <span class="spacer"></span>
+
+  <a mat-button routerLink="/">
+    <mat-icon>home</mat-icon>
+    Home
+  </a>
+
+  <a mat-button routerLink="/shop">
+    <mat-icon>shopping_bag</mat-icon>
+    Clothes
+  </a>
+
+  <a mat-button routerLink="/favorite">
+    <mat-icon>favorite</mat-icon>
+    Favorites
+  </a>
+
+  <a mat-button routerLink="/cart">
+    <mat-icon>shopping_cart</mat-icon>
+    Cart
+  </a>
+</mat-toolbar>
 
 <!-- Main page content will be displayed here -->
 <router-outlet></router-outlet>

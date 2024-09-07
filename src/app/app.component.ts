@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ThemePalette} from'@angular/material/core';
 
 @Component({
   selector: 'app-root',

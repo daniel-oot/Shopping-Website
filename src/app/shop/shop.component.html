@@ -1,8 +1,19 @@
-<nav>
-  <a routerLink="men" routerLinkActive="active">Men</a>
-  <a routerLink="women" routerLinkActive="active">Women</a>
-  <a routerLink="kids" routerLinkActive="active">Kids</a>
-</nav>
+<mat-toolbar color="accent">
+  <a mat-button routerLink="men" routerLinkActive="active">
+    <mat-icon>male</mat-icon>
+    Men
+  </a>
 
+  <a mat-button routerLink="women" routerLinkActive="active">
+    <mat-icon>female</mat-icon>
+    Women
+  </a>
+
+  <a mat-button routerLink="kids" routerLinkActive="active">
+    <mat-icon>child_friendly</mat-icon>
+    Kids
+  </a>
+</mat-toolbar>
+
+<!-- Sub-page content will be displayed here -->
 <router-outlet></router-outlet>
-
