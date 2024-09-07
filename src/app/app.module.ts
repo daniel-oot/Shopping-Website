@@ -10,6 +10,7 @@ import { CartComponent } from './cart/cart.component';
 import { MenComponent } from './shop/men/men.component';
 import { WomenComponent } from './shop/women/women.component';
 import { KidsComponent } from './shop/kids/kids.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { KidsComponent } from './shop/kids/kids.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
